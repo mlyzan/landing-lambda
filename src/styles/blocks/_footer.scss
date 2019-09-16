@@ -1,0 +1,50 @@
+.footer{
+    min-height: 180px;
+    background-color: #191919;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 61px 0 72px 0;
+    img{
+        display: block;
+        width: 199px;
+        height: 19px;
+        margin: 17px auto 23px auto;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    h2{
+        color: #fefefe;
+        font-family: "Yeseva One";
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    &__about{
+        width: 343px;
+    }
+    &__open{
+        width:343px;
+    }
+    &__location{
+        width: 343px;
+        &__descr{
+            &__icons{
+                display: flex;
+                justify-content: center;
+                a{
+                    margin: 0 5px;
+                }
+                img{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+}

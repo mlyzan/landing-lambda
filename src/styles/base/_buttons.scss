@@ -1,0 +1,48 @@
+.btn{
+    &:hover{
+        cursor: pointer;
+    }
+    &_black{
+        width: 228px;
+        height: 57px;
+        border: 1px solid #000000;
+        background-color: rgba($color: #000000, $alpha: .8);
+        color: #ffffff;
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin: 0 15px;
+        &:hover{
+            box-shadow: 6px 6px 6px 6px rgba($color: #000000, $alpha: .6);
+        }
+    }
+    &_white{
+        width: 228px;
+        height: 57px;
+        border: 1px solid #fff;
+        background-color: rgba($color: #fff, $alpha: .3);
+        color: #ffffff;
+        font-family: "Lato";
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin: 0 15px;
+        &:hover{
+            box-shadow: 6px 6px 6px 6px rgba($color: #fff, $alpha: .4);
+        }
+    }
+    &_book{
+        width: 200px;
+        height: 36px;
+        border: 1px solid #c89f2d;
+        background-color: #c89f2d;
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 400;
+        &:hover{
+            box-shadow: 6px 6px 6px 6px rgba($color: #c89f2d, $alpha: .4);
+        }
+    }
+}

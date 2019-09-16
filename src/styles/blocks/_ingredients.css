@@ -1,0 +1,37 @@
+.ingredients {
+  background: url("../img/ingredients_bg.png") center center/cover no-repeat;
+  width: 100%;
+  min-height: 758px;
+  padding-top: 100px;
+}
+
+.ingredients__block {
+  text-align: center;
+  width: 420px;
+  height: 407px;
+  background-color: rgba(0, 0, 0, 0.67);
+  margin-left: 45%;
+  padding: 83px 81px 80px 80px;
+}
+
+.ingredients__block h2 {
+  color: #ffffff;
+  font-family: "Yeseva One";
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.ingredients__block__descr {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 30px;
+  margin-bottom: 62px;
+}
+
+.ingredients__block__icons img {
+  margin: 0 10px;
+}

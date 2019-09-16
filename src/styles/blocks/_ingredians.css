@@ -1,0 +1,16 @@
+.ingredients {
+  background: url("../img/ingredients_bg.png") center center/cover no-repeat;
+  width: 100%;
+  min-height: 758px;
+}
+
+.ingredients__block {
+  text-align: center;
+}
+
+.ingredients__block h2 {
+  color: #ffffff;
+  font-family: "Yeseva One";
+  font-size: 36px;
+  font-weight: 400;
+}

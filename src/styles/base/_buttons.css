@@ -1,0 +1,52 @@
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn_black {
+  width: 228px;
+  height: 57px;
+  border: 1px solid #000000;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 15px;
+}
+
+.btn_black:hover {
+  box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+.btn_white {
+  width: 228px;
+  height: 57px;
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 15px;
+}
+
+.btn_white:hover {
+  box-shadow: 6px 6px 6px 6px rgba(255, 255, 255, 0.4);
+}
+
+.btn_book {
+  width: 200px;
+  height: 36px;
+  border: 1px solid #c89f2d;
+  background-color: #c89f2d;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btn_book:hover {
+  box-shadow: 6px 6px 6px 6px rgba(200, 159, 45, 0.4);
+}
