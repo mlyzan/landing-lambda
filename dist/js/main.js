@@ -37,6 +37,9 @@ window.addEventListener('DOMContentLoaded', function () {
       $(this).find("input").val("");
       $('.overlay').fadeIn('slow');
       $('form').trigger('reset');
+      setTimeout(function () {
+        $(".overlay").hide('slow');
+      }, 3000);
     });
     return false;
   });
