@@ -14,12 +14,12 @@
                 <div class="logo">LAMBDA</div>
                 <div class="nav__links">
                     <div>
-                        <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Igredients</a>
-                    <a href="#">Menu</a>
-                    <a href="#">Reviews</a>
-                    <a href="#">Reservations</a>
+                        <a href="/">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#igredients">Igredients</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#reviews">Reviews</a>
+                    <a href="#reservations">Reservations</a>
                     </div>
                     <div class="nav__icons">
                         <a href="#"><img src="img/svg/twitter.svg" alt="twitter"></a>
@@ -34,8 +34,8 @@
                 for the right food
             </h1>
             <div class="header__divider"><img src="img/header_divider.png" alt="divider"></div>
-            <button class="btn btn_black">BOOK A TABLE</button>
-            <button class="btn btn_white">SEE THE MENU</button>
+            <a href="#reservations"><button class="btn btn_black">BOOK A TABLE</button></a>
+            <a href="#menu"><button class="btn btn_white">SEE THE MENU</button></a>
        </div>
     </header>
 
@@ -55,7 +55,7 @@
         </div>
     </section>
 
-    <section class="ingredients">
+    <section id="igredients" class="ingredients">
         <div class="container">
             <div class="ingredients__block">
                 <h2>Fine ingredients</h2>
@@ -72,7 +72,7 @@
         </div>
     </section>
 
-    <section class="menu">
+    <section id="menu" class="menu">
         <div class="container">
             <div class="menu__wrap">
                 <div class="menu__wrap__block">
@@ -215,7 +215,7 @@
         </div>
     </section>
     
-    <section class="reviews">
+    <section id="reviews" class="reviews">
         <div class="container">
             <div class="reviews__block">
                 <h2>Guest Reviews</h2>
@@ -229,7 +229,7 @@
         </div>
     </section>
 
-    <section class="reservations">
+    <section id="reservations" class="reservations">
         <div class="container">
             <img src="img/reservations1.png" alt="foto">
             <img src="img/reservations2.png" alt="foto">
@@ -254,7 +254,7 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
+    <footer id="about" class="footer">
         <div class="container">
             <div class="footer__about">
                     <h2>About Us</h2>
@@ -289,5 +289,16 @@
             </div>
         </div>
     </footer>
+
+    <div class="overlay">
+        <div class="thanks">
+                <div class="close">&times;</div>
+                <strong>Thank you!</strong> <br>
+                <img src="img/divider-yellow.png" alt="divider"> <br>
+                <span>We will call you.</span>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
