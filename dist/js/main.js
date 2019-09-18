@@ -42,5 +42,33 @@ window.addEventListener('DOMContentLoaded', function () {
       }, 3000);
     });
     return false;
-  });
+  }); //menu
+
+  function hamburgerMenu(selector) {
+    var navLinks = $(selector);
+    var hamburger = $('.hamburger');
+    var links = $('.nav__links a');
+    hamburger.on('click', function () {
+      return toggleMenu();
+    });
+    links.on('click', function () {
+      return toggleMenu();
+    });
+
+    function toggleMenu() {
+      hamburger.toggleClass('hamburger-active');
+      navLinks.toggle();
+
+      if ($('.nav__links').css('display') != 'none') {
+        $('body').css('overflow', 'hidden');
+      } else {
+        $('body').css('overflow', 'visible');
+      }
+    }
+
+    ;
+  }
+
+  ;
+  hamburgerMenu(".nav__links");
 });
