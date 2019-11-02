@@ -56,13 +56,15 @@ window.addEventListener('DOMContentLoaded', function () {
     });
 
     function toggleMenu() {
-      hamburger.toggleClass('hamburger-active');
-      navLinks.toggle();
+      if ($(window).width() < 1200) {
+        hamburger.toggleClass('hamburger-active');
+        navLinks.toggle();
 
-      if ($('.nav__links').css('display') != 'none') {
-        $('body').css('overflow', 'hidden');
-      } else {
-        $('body').css('overflow', 'visible');
+        if ($('.nav__links').css('display') != 'none') {
+          $('body').css('overflow', 'hidden');
+        } else {
+          $('body').css('overflow', 'visible');
+        }
       }
     }
 

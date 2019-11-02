@@ -45,15 +45,17 @@ window.addEventListener('DOMContentLoaded', function(){
             hamburger.on('click', ()=> toggleMenu());
             links.on('click', ()=> toggleMenu());
 
-          function toggleMenu(){
-            hamburger.toggleClass('hamburger-active');
-            navLinks.toggle();
-            if($('.nav__links').css('display') != 'none'){
-              $('body').css('overflow','hidden');
-            }else {
-              $('body').css('overflow','visible');
-            }
-          };
+            function toggleMenu(){
+              if($(window).width()<1200){
+                hamburger.toggleClass('hamburger-active');
+              navLinks.toggle();
+              if($('.nav__links').css('display') != 'none'){
+                $('body').css('overflow','hidden');
+              }else {
+                $('body').css('overflow','visible');
+              }
+              }
+            };
         };
         hamburgerMenu(".nav__links");
 
